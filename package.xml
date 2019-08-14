@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eke_Mouseflow</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Quickly integrate Mouseflow user session recording code snippet.</summary>
+    <description>This module adds the required Mouseflow JavaScript in order for their user session platform to function.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Eke Digital</name><user>ekedigital</user><email>dane@ekedigital.com</email></author></authors>
+    <date>2016-10-25</date>
+    <time>19:38:34</time>
+    <contents><target name="magecommunity"><dir name="Eke"><dir name="Mouseflow"><dir name="Block"><dir name="Adminhtml"><file name="About.php" hash="eb8826718ca228130d1330b8459ff1ba"/></dir></dir><dir name="Helper"><file name="Data.php" hash="3e0a1c37fe09d48f0cd9da5ee2dc99dd"/></dir><dir name="etc"><file name="adminhtml.xml" hash="4e3953f1308d7a41de71fd4bd3655d9c"/><file name="config.xml" hash="63bb83ffc16a292e372a8d63ecbe9e06"/><file name="system.xml" hash="baef3fc10840bd8fde0e105316905638"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="eke_mouseflow.xml" hash="b40d92dd5c322cc3569acc530c267d43"/></dir><dir name="template"><dir name="eke"><dir name="mouseflow"><file name="tracker.phtml" hash="bd7f10bdf8e08a77999598d5971812c8"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eke_Mouseflow.xml" hash="17029b4285c13d8c91134a7d3a538547"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Helper_Abstract</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>
